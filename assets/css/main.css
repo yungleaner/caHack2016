@@ -1623,8 +1623,8 @@
 	}
 
 	body {
-		background-color: rgb(135,149,232);
-		background-image: linear-gradient(to top, rgba(135, 149, 232, 0.8), rgba(135, 149, 232, 0.8)), url("../../images/bg.jpg");
+		background-color: #94D0FF;
+		background-image: linear-gradient(to top, rgba(148, 208, 255, 0.8), rgba(148, 208, 255, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -2735,7 +2735,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #ff6ad5;
+		background-color: #94D0FF;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -2938,7 +2938,7 @@
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #FF6AD5;
+			background: #94D0FF;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3324,7 +3324,7 @@ background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65
 		}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #94D0FF;
 		}
 
 			.wrapper.spotlight .inner {
@@ -3371,21 +3371,25 @@ background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65
 			.wrapper.spotlight:nth-child(2n - 1) .image {
 				margin: 0 0 2em 3em;
 			}
+            
+            .wrapper.spotlight.style1 {
+                background-color: #C774E8;
+            }
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #AD8CFF;
 			}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #C774E8;
 			}
 
 			.wrapper.spotlight.style4 {
-				background-color: #39477c;
+				background-color: #8795E8;
 			}
 
 			.wrapper.spotlight.style5 {
-				background-color: #324072;
+				background-color: #8795E8;
 			}
 
 			.wrapper.spotlight.style6 {
