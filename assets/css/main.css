@@ -1770,7 +1770,7 @@
     /*
     REMOVE padding between <p> and <ul>
     */
-    p, ul {
+    p, ul [#nopadding]{
     padding: 0;
     margin: 0;
     }
